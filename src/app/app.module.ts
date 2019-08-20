@@ -6,10 +6,13 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { TopTabComponent } from './top-tab/top-tab.component';
 import { SliderComponent } from './slider/slider.component';
+import { JumboComponent } from './jumbo/jumbo.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, TopTabComponent, SliderComponent ],
+  declarations: [ AppComponent, HelloComponent, TopTabComponent, SliderComponent, JumboComponent, WelcomeComponent, TeamComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
