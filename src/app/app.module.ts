@@ -10,10 +10,14 @@ import { JumboComponent } from './jumbo/jumbo.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TeamComponent } from './team/team.component';
 import { ColumnComponent } from './column/column.component';
+import { FixedComponent } from './fixed/fixed.component';
+import { EmojiComponent } from './emoji/emoji.component';
+import { MeetTheTeamComponent } from './meet-the-team/meet-the-team.component';
+import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, TopTabComponent, SliderComponent, JumboComponent, WelcomeComponent, TeamComponent, ColumnComponent ],
+  declarations: [ AppComponent, HelloComponent, TopTabComponent, SliderComponent, JumboComponent, WelcomeComponent, TeamComponent, ColumnComponent, FixedComponent, EmojiComponent, MeetTheTeamComponent, CardsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
