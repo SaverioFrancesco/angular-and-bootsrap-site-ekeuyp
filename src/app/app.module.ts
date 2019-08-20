@@ -14,10 +14,11 @@ import { FixedComponent } from './fixed/fixed.component';
 import { EmojiComponent } from './emoji/emoji.component';
 import { MeetTheTeamComponent } from './meet-the-team/meet-the-team.component';
 import { CardsComponent } from './cards/cards.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, TopTabComponent, SliderComponent, JumboComponent, WelcomeComponent, TeamComponent, ColumnComponent, FixedComponent, EmojiComponent, MeetTheTeamComponent, CardsComponent ],
+  declarations: [ AppComponent, HelloComponent, TopTabComponent, SliderComponent, JumboComponent, WelcomeComponent, TeamComponent, ColumnComponent, FixedComponent, EmojiComponent, MeetTheTeamComponent, CardsComponent, ProjectsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
