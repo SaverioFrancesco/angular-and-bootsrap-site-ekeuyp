@@ -46,7 +46,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url('img/mac.png');
+  background-image: url('https://source.unsplash.com/collection/190727/5');
   position: fixed;
   display: block;
   top: 0;
