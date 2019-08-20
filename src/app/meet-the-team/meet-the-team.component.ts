@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { team } from '../persons';
+
 
 @Component({
   selector: 'app-meet-the-team',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./meet-the-team.component.css']
 })
 export class MeetTheTeamComponent implements OnInit {
+
+  persons=team;
 
   constructor() { }
 

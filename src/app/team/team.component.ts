@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { team } from '../persons';
+
 
 @Component({
   selector: 'app-team',
@@ -7,19 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamComponent implements OnInit {
 
-  persons =[
-    { name : 'Francesco Saverio',
-    surname: 'Comisso',
-    title: 'Computer Scientist',
-    bio : '',
-    emails:['mitramdhir@gmail.com','francesco.sav.comisso@gmail.com'],
-    phone: '+39...',
-    cv:''
-    },
-    {name : 'Francesco Saverio',
-    surname: 'Comisso',
-    title: 'Computer Scientist',
-    bio : ''}]
+  persons = team;
 
   constructor() { }
 

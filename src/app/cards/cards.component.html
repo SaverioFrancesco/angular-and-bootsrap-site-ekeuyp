@@ -2,10 +2,29 @@
 
 <div class="row padding">
 
-<div class="col-md-4">
 
+<ng-container *ngFor="let person of persons">
   
-</div>
+<div class="col-md-4">
+  <div class="card">
+
+
+
+  <img class="card-img-top" src="https://source.unsplash.com/collection/190727/20" height ="200" width="200" >
+    <div class="card-body">
+      <h4 class="card-title" >{{person.name}} {{person.surname}}</h4>
+      <p class="card-text">{{person.bio}}</p>
+
+      <a href="#" class="btn btn-outline-secondary"> See Profile</a>
+    </div>
+  </div>
+  </div>
+</ng-container>
+
+
+
+
+
 
 </div>
 
