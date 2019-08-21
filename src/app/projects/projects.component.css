@@ -1,0 +1,6 @@
+    .floating-card {
+        float: left;
+        margin: 5px;
+        max-width: 300px;
+
+    }

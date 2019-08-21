@@ -15,25 +15,89 @@
 </div>
 
 </div>
-<div class="container-fluid padding">
+<!--<div class="card-columns sortable padding">
 
 <div class="row padding">
+-->
 
 
+<div class="container">
+  <div class="card-columns">
 
-<ng-container *ngFor="let project of currentprojects">
-  
-<div class="  col-xs-12 col-sm-6 col-md-4  ">
+    <ng-container *ngFor="let project of currentprojects">
+
+
+    <div class="card">
+      <div class="card-header">
+        Card Header
+      </div>
+      <img class="card-img-top" src="https://source.unsplash.com/daily" alt="Card image top">
+      <div class="card-body">
+        <h3 class="card-title">Each Card body can have a title</h3>
+        <h4 class="card-subtitle">And a subtitle</h4>
+        <p class="card-text">This is a card body 1</p>
+      </div>
+
+      <div class="card-body">
+        <h3 class="card-title">Card body 2 title</h3>
+        <h4 class="card-subtitle">And subtitle</h4>
+        <p class="card-text">You can also add a second body or even more</p>
+      </div>
+      <img class="card-img-bottom" src="https://source.unsplash.com/daily" alt="Card image bottom">
+      <div class="card-footer">
+        Card Footer
+      </div>
+    </div>
+
+    <div class="card">
+
+      <img class="card-img-top" src="https://source.unsplash.com/daily?nature" alt="Card image top">
+      <div class="card-img-overlay">
+        <h3 class="card-title">Card title</h3>
+        <h4 class="card-subtitle">Card subtitle</h4>
+        <p class="card-text">You can use the cap image as an overlay for the body</p>
+      </div>
+    </div>
+
+        <div class="card">
+
+      <img class="card-img-top" src="https://source.unsplash.com/daily?rock" alt="Card image top">
+      <div class="card-img-overlay white">
+        <h3 class="card-title">Card title</h3>
+        <h4 class="card-subtitle">Card subtitle</h4>
+        <p class="card-text">You can add links to card body</p>
+        <a href="#" class="card-link">Link 1</a>
+        <a href="#" class="card-link">Link 2</a>
+      </div>
+    </div>
+<!--
+    <div class="card  card-primary p-3 text-center">
+      <ul class="list-group">
+        <li class="list-group-item">Item 1</li>
+        <li class="list-group-item">Item 2</li>
+        <li class="list-group-item">Item 3</li>
+      </ul>
+
+    </div>-->
+
+
+<!--<div class="card-columns"> -->>
+<!--
+<div class="  col-xs-12 col-sm-6 col-md-4 ">
   <div class="card">
-  <img class="card-img-top" src="https://source.unsplash.com/collection/190727/20" height ="200" width="200" >
-    <div class="card-body">
+  <img class="card-img-top" src="https://source.unsplash.com/collection/190727/20" height ="100%" width="500" >
+  <div class="card-img-overlay">
+    <!--<div class="card-body">
       <h4 class="card-title" >{{project.name}}</h4>
-      <p class="card-text">C</p>
+      <p class="card-text">AAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+      <h3 class="card-title">Card title</h3>
+          <h4 class="card-subtitle">Card subtitle</h4>
+          <p class="card-text">This is a simple Card example</p>
 
       <a href="#" class="btn btn-outline-secondary"> See Profile</a>
     </div>
   </div>
-  </div>
+  </div>-->
 </ng-container>
 </div>
-</div>
+
